@@ -1,0 +1,838 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Zen Antique', serif;
+}
+
+/*General*/	
+body {
+	max-width: 100%;
+	overflow-x:hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+ }
+
+header {
+	background-color: #f6edd9;
+	text-align: center;
+	padding: 2.5em;
+}
+
+.skiplink {
+	position: absolute;
+    right: 10px;
+    top: 70px;
+	color: #f6edd9;
+	opacity: 0;
+}
+
+.skiplink:hover {
+	color: black;
+}
+
+h1, h2, h3 {
+	 text-transform: uppercase;
+}
+
+h1 {
+	font-size: 3rem;
+	box-shadow: 7px 7px 5px rgb(0 0 0 / 80%);
+	display: inline;
+    background-color: #9abdb6;
+    padding: 0.1em 0.2em;
+}
+
+h2 {
+	font-size: 2.1rem;
+}
+
+h3 {
+	font-size: 2rem;
+	padding-bottom: 0.5em;
+}
+
+.h3-style {
+	font-size: 2rem;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+p {
+	opacity: 0.6;
+    font-size: 1rem;
+	max-width: 50ch;
+	line-height: 2.5rem;
+	margin-bottom: 1em;
+}
+
+#wrapper {
+	margin: auto;
+	max-width: 1000px;
+}
+
+#wrapper-veg {
+	margin: auto;
+	max-width: 667px;
+}
+
+nav {
+	background-color: #4c4637;
+}
+
+img {
+	display: block;
+}
+
+.mb {
+	margin-bottom: 2em;
+}
+
+.mt {
+	margin-top: 2em;
+}
+	 
+.nav-bar-links {
+	font-size: 1.9rem;
+}
+
+.nav-bar-links ul {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-bar-links li {
+	list-style: none;
+	padding: 1.5em 1.2em;
+}
+
+.nav-bar-links li a {
+	text-decoration: underline;
+	color: white;
+	display: block;
+	font-size: 1.1rem;
+}
+
+.nav-bar-links a:hover {
+	color: #9abdb6;
+}
+
+.border { 
+	border: 4px solid #4c4637;
+}
+
+.border-grey {
+	border: 4px solid #707070;
+}
+
+.border-light: {
+	border: 4px solid #f6edd9;
+}
+
+.center {
+	text-align: center;
+}
+
+/*Home*/
+header a {
+	text-decoration: none;
+	color: black;
+}
+
+.hero {
+	margin: 2em 0 0 0;
+}
+
+.hero-section { 
+	position: relative;
+}
+
+.hero-section h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #4c4637;
+    padding: 0.2em;
+    color: white;
+}
+
+.hero-section .mb {
+	margin-bottom: 2em;
+}
+
+.intro {
+	float: left;
+	width: 60%;
+}
+
+.side {
+	background-color: white;
+	float: left;
+    margin-right: 4em;
+	margin-bottom: 4em;
+	margin-top: 2em;
+}
+
+.side li {
+	list-style: none;
+}
+
+.side a {
+	text-decoration: underline;
+	color: white;
+	display: block;
+	padding: 1em 3em 1em 3em;
+}
+
+.side a:hover{
+	color: #9abdb6 !important;
+	box-shadow: none;
+	border-color: #9abdb6 !important;
+}
+
+.side a:click{
+	box-shadow: none;
+}
+
+.button {
+	background-color: #f6edd9;
+	font-size: 1.1rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	box-shadow: 2px 7px 5px rgb(0 0 0 / 25%);
+	text-transform: uppercase;
+}
+
+#btn1 {
+	color: black;
+}
+
+#btn2 {
+	background-color: #4c4637;
+	border: 4px solid #707070;
+}
+
+#btn3 {
+	color: black;
+}
+
+#tips-btn {
+	padding: 2em 0;
+}
+
+footer {
+	margin: 0 0 0em 0;	
+	background-color: #4c4637;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+footer p {
+	opacity: 1;
+	align-self: center;
+}
+
+footer li {
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.footer-nav-links {
+	align-self: center;
+}
+
+.footer-nav-links ul {
+	padding: 1em;
+}
+
+hr {
+	width: 12%;
+	text-align: center;
+	margin: auto;
+}
+
+footer a {
+	text-decoration: underline;
+	color: white;
+	display: block;
+	font-size: 0.9rem;
+	line-height: 1.4em;
+}
+
+footer a:hover{
+	color: #9abdb6;
+}
+
+/*About*/
+
+.about-1 {
+	margin-top: 2em;
+}
+
+.about-1  h3 {
+text-align:center;
+}
+	
+.about-1 p {
+	max-width: 100%;
+}
+
+.about-1 p:last-of-type {
+	margin-bottom: 2em;
+}
+
+#side-garden {
+	float: left;
+	margin-right: 2em;
+}
+
+/*Vegetable Garden*/
+
+.vegetable-garden {
+	margin-top: 2em;
+}
+
+#wrapper veg img {
+	width: 100%;
+}
+
+.inline {
+	display: inline;
+}
+
+#watermelon {
+	margin-right: 2em;
+    margin-left: 1.5em;
+}
+
+.vegetable-garden h2 {
+	margin-top: 0.7em;
+}
+
+.vegetable-garden p {
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+
+.veggie-img-margins {
+	margin: 0 auto;
+    margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+/*Water Garden*/
+.water-garden p {
+	max-width: 100%;
+}
+
+.left-img{
+	float: left;
+	margin-right: 1.1em;
+}
+
+#pond {
+	float: left;
+}
+
+#palm {
+	float: left;
+}
+
+#final {
+	clear: both;
+}
+
+/*Tips*/
+#wrapper-tips {
+	max-width: 667px;
+	margin: auto;
+}
+
+.tips h2 {
+	margin-top: 1em;
+}
+
+#tips-ul li {
+	padding: 1em 1em 0.4em 1em;
+	margin-left: 2em;
+	opacity: 0.6;
+	line-height: 2em;
+}
+
+#tips-ul li:last-child {
+	margin-bottom: 0em !important;
+}
+
+#tips-ul li:first-child {
+	padding-top: 0.5em;
+}
+
+table {
+	margin: auto;
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+	background-color: #9abdb6;
+}
+
+table caption {
+	font-weight: bold;
+	padding-bottom: 1.5em;
+}
+
+table th {
+	padding: 1em;
+}
+
+table td {
+	padding: 1em;
+	opacity: 0.6;
+}
+
+
+/*Contact*/
+#contact {
+	display: flex;
+	justify-content: center;
+}
+
+#contact a {
+	color: #9abdb6;
+}
+
+#contact p {
+	opacity: 1;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	margin-left: 2em;
+}
+
+.vcard { 
+	margin-bottom: 2em;
+   	flex-direction: column;
+    display: flex;
+}
+
+iframe {
+	margin-bottom: 2em;
+	width: 100%;
+	height: 400px;
+	border: 0;
+}
+
+form {
+	margin-bottom: 2em;
+	width: 612px;
+}
+
+legend {
+    font-size: 1.4rem;
+    text-align: center;
+	padding-bottom: 0.5em;
+}
+
+
+#theForm p{
+	line-height: 1rem;
+	margin-bottom: 01.5em;
+}
+
+input[type=text], [type=email] {
+	width: 90%;
+	padding: 0.5rem;
+	margin: 1em;
+	border: 2px solid #4c4637;
+}
+
+input[type=submit] {
+	width: 40%;
+	border: 4px solid #707070;
+	padding: 0.5em;
+	font-size: 1.2rem;
+	background-color: #4c4637;
+	text-decoration: underline;
+    color: white;
+	padding-top: 0.2rem;
+	box-shadow: 2px 7px 5px rgb(0 0 0 / 25%);
+}
+
+input:focus{
+	background-color: #9abdb6;
+	filter: brightness(110%);
+}
+
+input[type=submit]:hover {
+	color: #9abdb6;
+	border-color: #9abdb6;
+	box-shadow: none;
+}
+
+input[type=submit]:focus {
+	background-color: #4c4637;
+}
+
+label {
+	 margin: 1em;
+}
+
+textarea {
+	width: 100%;
+	padding: 0.5rem;
+	margin: 1em 1em 0em 1em;
+	border: 2px solid #4c4637;
+	resize: none;
+}
+
+.one {
+	text-align: center;
+	padding: 0.5em;
+}
+
+.one, .two {
+	margin-bottom: 1.5em;
+}
+
+/* 404 Error */
+.error-message {
+	max-width: 70ch;
+	font-size: 1.7rem !important;
+	text-align: center;
+}
+
+/* Findability Home */
+.findability-wrapper {
+	margin: auto;
+	max-width: 667px;
+}
+
+.margin-top {
+	margin-top: 0.7em;
+}
+
+/* Research */
+#research-wrapper {
+	margin: auto;
+	max-width: 800px;
+}
+
+#research-wrapper h2 {
+	margin-bottom: 0.7em;
+	margin-top: 0.7em;
+}
+
+.research-list {
+	opacity: 0.6;
+    font-size: 1rem;
+}
+
+.research-list li {
+	margin-bottom: 1em;
+}
+
+/* Vocab */
+.vocab-ul {
+	padding: 1em 1em 0.4em 1em;
+    margin-left: 2em;
+    line-height: 2em;
+    font-size: 1rem;
+	text-align: left;
+}
+
+.vocab-ul li {
+	
+    margin-bottom: 0.7em;
+}
+ 
+#resources-wrapper li {
+	font-size: 1rem;
+}
+
+#resources-wrapper h3 {
+	margin-top: 0.7em;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	list-style-position: inside;
+}
+
+.seo p {
+	max-width: 100ch
+}
+
+#aboutfin-wrapper {
+	margin: auto;
+    max-width: 1000px;
+}
+
+#aboutfin-wrapper p {
+	max-width: 100ch;
+}
+
+/*Form JS Styles*/
+.error {
+	color: #FF1400;
+}
+
+.tooltip {
+	display: block; 
+	position: absolute; 
+	visibility: hidden;
+	left: 63em;
+	top: 70em; 
+	width: 10em;
+	padding: 0.5em;
+	font-weight: normal;
+	color: #FFF;
+	background-color: #4c4637;
+	border:solid 2px #9abdb6;
+}
+
+.error {
+	color: #D92525;
+}
+span.error{
+	padding-left: 1em;
+}
+
+.correct {
+	color: #9abdb6;
+}
+
+span.correct{
+	padding-left: 0em;
+}
+
+/*Tablet*/
+@media only screen and (max-width: 1030px){
+
+/*Home-tab*/
+.hero {
+	max-width: 96%;
+	margin: 2em auto;
+}
+
+.hero-section .mb {
+	margin-bottom: 0;
+}
+
+img {
+	max-width: 96%;
+	margin: 2em auto;
+}
+
+.side {
+	float: none;
+	margin: 1em auto;
+    width: 50%;
+}
+
+#btn1 {
+	margin-top: 2em;
+}
+
+.intro {
+	margin: 1em auto;
+	float: none;
+	width: 66%;
+}
+
+h3 {
+	text-align: center;
+}
+
+/*About-tab*/
+
+.about-1 {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#side-garden {
+	float: none;
+	margin-right: auto;
+}
+
+.about-1 p{
+	max-width: 55%;
+}
+
+/*water-tab*/
+.water-garden {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.left-img {
+    float: none;
+	margin-right: auto;
+}
+
+.water-garden p {
+    max-width: 60%
+}
+
+#pond {
+    float: none;
+}
+
+#palm {
+	float: none;
+}
+
+/*Contact-tab*/
+
+#contact {
+flex-direction: column
+}
+
+.contact-info {
+	margin: auto;
+}
+
+@media only screen and (max-width: 908px){
+
+.nav-bar-links ul {
+	flex-wrap: wrap;
+}
+
+.nav-bar-links li {
+	padding: 0.5em;
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 732px){
+
+h1 {
+	width: 65%;
+    margin: 0 auto;
+	display: block;
+	font-size: 2.3rem;
+}
+
+.side {
+	display: none;
+}
+
+.about-1 {
+	margin-top: 0em;
+}
+
+form {
+	width: auto;
+}
+
+@media only screen and (max-width: 500px){
+footer p {
+	padding-right: 0;
+}
+
+h1 {
+	width: 100%;
+}
+
+/*Mobile Home*/
+.hero {
+    max-width: 94%;
+}
+
+/*Mobile About*/
+
+img {
+	margin: 1em auto !important;
+	max-width: 94%
+}
+
+.about-1 h3 {
+	margin-top: 0.4em;
+}
+
+.about-1 p {
+    max-width: 85%;
+}
+
+.about-1 p:last-of-type {
+    margin-bottom: 1em;
+}
+
+/*Mobile Vegetable Garden*/
+
+.vegetable-garden {
+	margin-top: 0em;
+}
+
+.vegetable-garden p {
+	width: 85%;
+}
+
+/*Mobile Water Garden*/
+
+.water-garden p {
+	max-width: 85%;
+}
+
+#yard, #bricks {
+	margin-bottom: 1em !important;
+	margin-top: 0em !important;
+}
+
+#pond, #palm {
+	display: none;
+}
+
+/*Mobile Tips*/
+
+#tips-ul {
+	max-width: 90%;
+    margin: 0em auto;
+}
+
+.tips p {
+ 	max-width: 85%;
+    margin: auto;
+	margin-top: 1em;
+}
+
+table {
+    margin: auto;
+    max-width: 90%;
+    margin-top: 1em;
+}
+
+/*Mobile Contact*/
+
+.contact-info {
+	width: 96%;
+}
+
+span.correct{
+	padding-left: 1em;
+}
+
